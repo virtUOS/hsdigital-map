@@ -1,0 +1,14 @@
+{
+    "oldenburg":{"name":"Oldenburg", "projects":["hsdigital", "another"]},
+    "osnabrueck":{"name":"Osnabrück", "projects":["hsdigital", "another"]},
+    "vechta":{"name":"Vechta", "projects":["hsdigital", "another"]},
+    "goettingen":{"name":"Göttingen", "projects":["hsdigital", "another"]},
+    "clausthal":{"name":"Clausthal", "projects":["hsdigital", "another"]},
+    "wolfenbuettel":{"name":"Wolfenbüttel", "projects":["hsdigital", "another"]},
+    "braunschweig":{"name":"Braunschweig", "projects":["hsdigital", "another"]},
+    "hildesheim":{"name":"Hildesheim", "projects":["hsdigital", "another"]},
+    "hannover":{"name":"Hannover", "projects":["hsdigital", "another"]},
+    "lueneburg":{"name":"Lüneburg", "projects":["hsdigital", "another"]},
+    "wilhelmshaven":{"name":"Wilhelmshaven", "projects":["hsdigital", "another"]},
+    "emden":{"name":"Emden", "projects":["hsdigital", "another"]}
+}
