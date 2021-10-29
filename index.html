@@ -10,6 +10,13 @@
 
     <script>
     $(document).ready(function() {
+      //load json
+      $.getJSON("./universities.json", function(data){
+        start_tooltipster(data)
+      }).fail(function() {
+        console.log("Error fetching universities data.");
+      })
+      function start_tooltipster(universities) {
         $('.tooltip').tooltipster({
             theme: 'tooltipster-noir',
             'maxWidth': 270, // set max width of tooltip box
@@ -28,15 +35,13 @@
                 },
             functionInit: function(instance) {
                 var svgObject = instance.elementOrigin();
-                $.getJSON("./universities.json",
-                    function(data) {
-                        var instData = data[svgObject.id];
-                        var content = "<strong>Universität:</strong> " + instData.name + "<br><br><strong>Projekte:</strong><br><ul><li>" + instData.projects.join('</li><li>') + "</li></ul>";
+                        var instData = universities[svgObject.id];
+                        var content = "<strong>Universität:</strong> "
+                            + instData.name
+                            + "<br><br><strong>Projekte:</strong><br><ul><li>"
+                            + instData.projects.join('</li><li>')
+                            + "</li></ul>";
                         instance.content(content);
-                    }).fail(
-                        function() {
-                            console.log("Error fetching universities data.");
-                        });
             },
             functionBefore: function(instance) {
                 var svgObject = instance.elementOrigin();
@@ -47,6 +52,7 @@
                 svgObject.childNodes[0].style.fill = "#ffffff";
             }
         });
+      }
     });
     </script>
 
