@@ -4,6 +4,7 @@
 
     <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-noir.min.css"/>
     <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
     <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
@@ -18,8 +19,9 @@
       })
       function start_tooltipster(universities) {
         $('.tooltip').tooltipster({
-            theme: 'tooltipster-noir',
+            theme: ['tooltipster-noir', 'tooltipster-noir-customized'],
             'maxWidth': 270, // set max width of tooltip box
+            'font-family': 'Univers',
             trigger: 'custom', // add custom trigger
             contentAsHTML: true,
             triggerOpen: { // open tooltip when element is clicked, tapped (mobile) or hovered
@@ -46,10 +48,14 @@
             functionBefore: function(instance) {
                 var svgObject = instance.elementOrigin();
                 svgObject.childNodes[0].style.fill = "#231f20";
+                var textObject = document.getElementById(svgObject.id + "-text")
+                textObject.style.display = "block"
             },
             functionAfter: function(instance) {
                 var svgObject = instance.elementOrigin();
                 svgObject.childNodes[0].style.fill = "#ffffff";
+                var textObject = document.getElementById(svgObject.id + "-text")
+                textObject.style.display = "none"
             }
         });
       }
@@ -59,43 +65,25 @@
 </head>
 
 <body>
-	<h1></h1>
-	<div id="mapdiv">
+  <div class="wrapper">
+	<h1 id="title" class="header">
+      Die Dachinitiative Hochschule.digital Niedersachsen
+  </h1>
+
+	<div id="map-container" class="map">
 <svg
    version="1.1"
    id="svg2"
-   xml:space="preserve"
-   width="1955.9067"
-   height="2004"
+   width=100%
+   height=100%
    viewBox="0 0 1955.9067 2004"
-   sodipodi:docname="karte_web.svg"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs6"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath16"><path
          d="M 0,1502.998 H 1466.933 V 0 H 0 Z"
-         id="path14" /></clipPath></defs><sodipodi:namedview
-     id="namedview4"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="0.38722555"
-     inkscape:cx="977.46649"
-     inkscape:cy="1002"
-     inkscape:window-width="1920"
-     inkscape:window-height="1011"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g12" />
+         id="path14" /></clipPath></defs>
      <g
      id="g8"
      inkscape:groupmode="layer"
@@ -634,9 +622,16 @@
              d="m 0,0 c 0,-8.036 -6.515,-14.552 -14.552,-14.552 -8.036,0 -14.552,6.516 -14.552,14.552 0,8.037 6.516,14.552 14.552,14.552 C -6.515,14.552 0,8.037 0,0 Z"
              style="fill:#ffffff;stroke:#231f20;stroke-width:3.156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
              id="path440" /></g></g></g></g></svg>
+  </div>
 
-    <!-- <object id="map" data="karte_web.svg" type="image/svg+xml"></object> -->
-    <!-- <img src="karte_web.svg" /> -->
+    <div id="text-container" class="text-container">
+      <div id="oldenburg-text" class="text">
+        Text <strong>Oldenburg</strong>
+      </div>
+      <div id="vechta-text" class="text">
+        Second Text <strong>Vecht</strong>
+      </div>
     </div>
+  </div>
 </body>
 </html>
