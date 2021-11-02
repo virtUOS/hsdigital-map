@@ -1,14 +1,49 @@
 {
-    "oldenburg":{"name":"Oldenburg", "projects":["hsdigital", "another"]},
-    "osnabrueck":{"name":"Osnabrück", "projects":["hsdigital", "another"]},
-    "vechta":{"name":"Vechta", "projects":["hsdigital", "another"]},
-    "goettingen":{"name":"Göttingen", "projects":["hsdigital", "another"]},
-    "clausthal":{"name":"Clausthal", "projects":["hsdigital", "another"]},
-    "wolfenbuettel":{"name":"Wolfenbüttel", "projects":["hsdigital", "another"]},
-    "braunschweig":{"name":"Braunschweig", "projects":["hsdigital", "another"]},
-    "hildesheim":{"name":"Hildesheim", "projects":["hsdigital", "another"]},
-    "hannover":{"name":"Hannover", "projects":["hsdigital", "another"]},
-    "lueneburg":{"name":"Lüneburg", "projects":["hsdigital", "another"]},
-    "wilhelmshaven":{"name":"Wilhelmshaven", "projects":["hsdigital", "another"]},
-    "emden":{"name":"Emden", "projects":["hsdigital", "another"]}
+    "oldenburg":{"name":"Oldenburg", "projects":
+        ["Futur.A",
+         "part@UOL",
+         "SOUVER@N"]},
+    "osnabrueck":{"name":"Osnabrück", "projects":
+        ["Futur.A",
+         "UOS.DLL",
+         "Futur.A",
+         "MWK"]},
+    "vechta":{"name":"Vechta", "projects":
+        ["ViBeS",
+         "SOUVER@N"]},
+    "goettingen":{"name":"Göttingen", "projects":
+        ["Futur.A",
+         "Co3Learn",
+         "Hands-on",
+         "LInK",
+         "MWK"]},
+    "clausthal":{"name":"Clausthal", "projects":
+        ["Souver@n",
+         "MWK"]},
+    "wolfenbuettel":{"name":"Wolfenbüttel", "projects":
+        ["AGGIT"]},
+    "braunschweig":{"name":"Braunschweig", "projects":
+        ["Co3Learn",
+         "ProDiGI",
+         "MWK"]},
+    "hildesheim":{"name":"Hildesheim", "projects":
+        ["Digital C@MPUS-le@rning",
+         "Futur.A",
+         "Hands-on",
+         "SOUVER@N"]},
+    "hannover":{"name":"Hannover", "projects":
+        ["Futur.A",
+         "Co3Learn",
+         "DEDICATE",
+         "DikoP",
+         "PAC-MAn",
+         "SOUVER@N",
+         "MWK"]},
+    "lueneburg":{"name":"Lüneburg", "projects":
+        ["DigiTaL",
+         "SOUVER@N"]},
+    "wilhelmshaven":{"name":"Wilhelmshaven", "projects":
+        ["Futur.A"]},
+    "emden":{"name":"Emden", "projects":
+        ["Futur.A"]}
 }
