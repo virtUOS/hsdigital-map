@@ -27,13 +27,13 @@
             triggerOpen: { // open tooltip when element is clicked, tapped (mobile) or hovered
                 click: true,
                 tap: true,
-                mouseenter: true
+                mouseenter: false
                 },
                 triggerClose: { // close tooltip when element is clicked again, tapped or when the mouse leaves it
                 click: true,
                 scroll: false, // ensuring that scrolling mobile is not tapping!
                 tap: true,
-                mouseleave: true
+                mouseleave: false
                 },
             functionInit: function(instance) {
                 var svgObject = instance.elementOrigin();
@@ -47,12 +47,16 @@
             functionBefore: function(instance) {
                 var svgObject = instance.elementOrigin();
                 svgObject.childNodes[0].style.fill = "#231f20";
+                var defaultText = document.getElementById("default-text")
+                defaultText.style.display = "none"
                 var textObject = document.getElementById(svgObject.id + "-text")
                 textObject.style.display = "block"
             },
             functionAfter: function(instance) {
                 var svgObject = instance.elementOrigin();
                 svgObject.childNodes[0].style.fill = "#ffffff";
+                //var defaultText = document.getElementById("default-text")
+                //defaultText.style.display = "block"
                 var textObject = document.getElementById(svgObject.id + "-text")
                 textObject.style.display = "none"
             }
@@ -619,11 +623,14 @@
            id="osnabrueck" class="tooltip"
            transform="translate(476.2085,623.4773)"><path
              d="m 0,0 c 0,-8.036 -6.515,-14.552 -14.552,-14.552 -8.036,0 -14.552,6.516 -14.552,14.552 0,8.037 6.516,14.552 14.552,14.552 C -6.515,14.552 0,8.037 0,0 Z"
-             style="fill:#ffffff;stroke:#231f20;stroke-width:3.156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             style="fill:#e51d24;stroke:#e51d24;stroke-width:3.156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
              id="path440" /></g></g></g></g></svg>
   </div>
 
     <div id="text-container" class="text-container">
+      <div id="default-text" class="default-text">
+        Klicken sie auf die Punkte, um Informationen über die Projekte zu erhalten.
+      </div>
       <div id="oldenburg-text" class="text">
         <p><strong>Futur.A</strong> – Future Skills.Applied: Stärkung studentischer Zukunftskompetenzen, Hochschule Wilhelmshaven/Oldenburg/Elsfleth (Jade Hochschule)</p>
         <p><strong>part@UOL</strong> – Partizipation in Studium und Lehre durch digitale und hybride Formate stärken, Universität Oldenburg</p>

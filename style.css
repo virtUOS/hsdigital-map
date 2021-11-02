@@ -44,3 +44,10 @@
     font-family: 'Univers';
     font-size: x-large;
 }
+
+.default-text {
+    display: block;
+    text-align: center;
+    font-family: 'Univers';
+    font-size: x-large;
+}
