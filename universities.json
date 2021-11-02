@@ -5,15 +5,15 @@
          "SOUVER@N"]},
     "osnabrueck":{"name":"Osnabrück", "projects":
         ["Futur.A",
+         "SOUVER@N",
          "UOS.DLL",
-         "Futur.A",
          "MWK"]},
     "vechta":{"name":"Vechta", "projects":
         ["ViBeS",
          "SOUVER@N"]},
     "goettingen":{"name":"Göttingen", "projects":
-        ["Futur.A",
-         "Co3Learn",
+        ["Co3Learn",
+         "Futur.A",
          "Hands-on",
          "LInK",
          "MWK"]},
@@ -32,8 +32,8 @@
          "Hands-on",
          "SOUVER@N"]},
     "hannover":{"name":"Hannover", "projects":
-        ["Futur.A",
-         "Co3Learn",
+        ["Co3Learn",
+         "Futur.A",
          "DEDICATE",
          "DikoP",
          "PAC-MAn",
@@ -41,7 +41,8 @@
          "MWK"]},
     "lueneburg":{"name":"Lüneburg", "projects":
         ["DigiTaL",
-         "SOUVER@N"]},
+         "SOUVER@N",
+         "MWK"]},
     "wilhelmshaven":{"name":"Wilhelmshaven", "projects":
         ["Futur.A"]},
     "emden":{"name":"Emden", "projects":
