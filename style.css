@@ -22,6 +22,7 @@
 .tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-content {
 	/* padding: 8px; */
     font-family: 'Univers';
+    font-size: large;
 }
 
 .map {
@@ -41,4 +42,5 @@
     display: none;
     text-align: left;
     font-family: 'Univers';
+    font-size: x-large;
 }
