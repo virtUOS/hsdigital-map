@@ -1,0 +1,38 @@
+{
+    "oldenburg":{"name":"Oldenburg", "projects":
+        ["Futur.A",
+         "part@UOL",
+         "SOUVER@N"]},
+    "osnabrueck":{"name":"Osnabrück", "projects":
+        ["Futur.A",
+         "SOUVER@N",
+         "UOS.DLL",
+         "MWK"]},
+    "goettingen":{"name":"Göttingen", "projects":
+        ["Co3Learn",
+         "Futur.A",
+         "Hands-on",
+         "LInK",
+         "MWK"]},
+    "clausthal":{"name":"Clausthal", "projects":
+        ["Souver@n",
+         "MWK"]},
+    "braunschweig":{"name":"Braunschweig", "projects":
+        ["Co3Learn",
+         "ProDiGI",
+         "MWK"]},
+    "hannover":{"name":"Hannover", "projects":
+        ["Co3Learn",
+         "Futur.A",
+         "DEDICATE",
+         "DikoP",
+         "PAC-MAn",
+         "SOUVER@N",
+         "MWK"]},
+    "lueneburg":{"name":"Lüneburg", "projects":
+        ["DigiTaL",
+         "SOUVER@N",
+         "MWK"]},
+    "emden":{"name":"Emden", "projects":
+        ["Futur.A"]}
+}
