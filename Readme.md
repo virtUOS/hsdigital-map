@@ -1,1 +1,1 @@
-# hochschule.niedersachsen Digital Map
+# Dachinitiative Hochschule.digital Niedersachsen: Project map 
