@@ -45,6 +45,13 @@
     font-size: x-large;
 }
 
+.legend {
+    display: block;
+    text-align: left;
+    font-family: 'Univers';
+    font-size: medium;
+}
+
 .default-text {
     display: block;
     text-align: center;
