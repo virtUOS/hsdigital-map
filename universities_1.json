@@ -1,38 +1,30 @@
 {
     "oldenburg":{"name":"Oldenburg", "projects":
-        ["Futur.A",
-         "part@UOL",
-         "SOUVER@N"]},
+        ["ELAN e. V.",
+         "ZDIN/OFFIS"]},
     "osnabrueck":{"name":"Osnabrück", "projects":
-        ["Futur.A",
-         "SOUVER@N",
-         "UOS.DLL",
-         "MWK"]},
+        ["eCULT",
+         "eLCC",
+         "virtUOS"]},
     "goettingen":{"name":"Göttingen", "projects":
-        ["Co3Learn",
-         "Futur.A",
-         "Hands-on",
-         "LInK",
-         "MWK"]},
+        ["Academic Cloud/GWDG",
+         "DINI",
+         "HLR/GWDG",
+         "RfII",
+         "Stud.IP e. V."]},
     "clausthal":{"name":"Clausthal", "projects":
-        ["Souver@n",
-         "MWK"]},
+        ["LHK-Geschäftsstelle/HdN"]},
     "braunschweig":{"name":"Braunschweig", "projects":
-        ["Co3Learn",
-         "ProDiGI",
-         "MWK"]},
+        ["kh:n",
+         "Projekthaus"]},
     "hannover":{"name":"Hannover", "projects":
-        ["Co3Learn",
-         "Futur.A",
-         "DEDICATE",
-         "DikoP",
-         "PAC-MAn",
-         "SOUVER@N",
-         "MWK"]},
+        ["CCC/LUH",
+         "L3S",
+         "OER/TIB",
+         "ZELDA/TiHo",
+         "ZQS/elsa"]},
     "lueneburg":{"name":"Lüneburg", "projects":
-        ["DigiTaL",
-         "SOUVER@N",
-         "MWK"]},
+        ["Konferenz der Norddt. Hochschulen"]},
     "emden":{"name":"Emden", "projects":
-        ["Futur.A"]}
+        ["QLiN"]}
 }
