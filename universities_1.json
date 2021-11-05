@@ -9,7 +9,7 @@
     "goettingen":{"name":"Göttingen", "projects":
         ["Academic Cloud/GWDG",
          "DINI",
-         "HLR/GWDG",
+         "HLRN/GWDG",
          "RfII",
          "Stud.IP e. V."]},
     "clausthal":{"name":"Clausthal", "projects":
@@ -24,7 +24,7 @@
          "ZELDA/TiHo",
          "ZQS/elsa"]},
     "lueneburg":{"name":"Lüneburg", "projects":
-        ["Konferenz der Norddt. Hochschulen"]},
+        ["VNU"]},
     "emden":{"name":"Emden", "projects":
         ["QLiN"]}
 }
